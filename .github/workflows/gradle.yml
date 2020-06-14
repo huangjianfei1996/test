@@ -25,4 +25,4 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: sql格式化结果
-      run: echo $(pwd)
+      run: echo $(ls)
