@@ -24,3 +24,5 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: sql格式化结果
+      run: echo $(cat /test/run-result.txt)
