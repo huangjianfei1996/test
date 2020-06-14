@@ -25,4 +25,6 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: sql格式化结果
-      run: echo $(cat /test/run-result.txt)
+      run: echo $(ls)
+    - name: sql格式化结果
+      run: echo $(cat ./test/run-result.txt)
